@@ -12,7 +12,7 @@ const Hero = () => {
     const onSearch = () => {
         setSearchFilter({
             title:titleRef.current.value,
-            locationRef: locationRef.current.value
+            location: locationRef.current.value
         })
         setIsSearched(true)
     }
