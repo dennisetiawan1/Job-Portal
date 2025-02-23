@@ -16,10 +16,5 @@
             "src": "/(.*)",
             "dest": "server.js"
         }
-    ],
-    "functions": {
-        "api/webhooks.js": {
-          "runtime": "edge"
-        }
-      }
+    ]
 }
